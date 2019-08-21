@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/backgraund.jpg");
+    background-size: cover;
+  }
+/*table data*/
+  #tbld{
+    width: 1054px;
+    height: 459px;
+    overflow: auto;
+  }
+  /*data container*/
+  #table{
+      background-color: white;
+      width: 1054px;
+      height: 593px;
+      position: fixed;
+      margin: 73px 0 0 223px;
+      z-index: 10;
+      border-radius: 20px;
+      opacity: 0.9;
+  }
+  /*weather container*/
+  #weather{
+      background-color: white;
+      width: 1045px;
+      height: 61px;
+      position: fixed;
+      margin: 7px 0 0 227px;
+      z-index: 10;
+      border-radius: 20px;
+  }
+  
+  ul{
+    margin: 11px 5px 4px 188px;
+    position: absolute;
+}
+/*search category container*/
+#inps{
+    width: 500px;
+    border: 2px solid green;
+    border-radius: 9px;
+    background-color: yellow;
+    text-align: center;
+    margin: 5px 22px 0 12px;
+    position: absolute;
+    height: 59px;
+}
+/*name container*/
+#name{
+    width: 285px;
+    border: 2px solid green;
+    border-radius: 9px;
+    background-color: yellow;
+    text-align: center;
+    height: 59px;
+    margin: 5px 0 0 542px;
+    position: absolute;
+  }
+/*logo container*/
+#logo{
+    margin: 18px 0 0 432px;
+    position: absolute;
+  }
+  img{
+    width: 172px;
+     height: 62px;
+     border-style: none;
+     border-radius: 19px;
+ }
+/*save button*/
+ #save{
+    background-color: #4CAF50;
+    color: white;
+    padding: 9px 26px;
+    margin: 12px 0 0 852px;
+    position: unset;
+    border: none;
+    cursor: pointer;
+    width: 16%;
+}
+/*find place button*/
+#ls{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 25px 0; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
